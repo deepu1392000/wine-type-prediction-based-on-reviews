@@ -23,4 +23,4 @@ import nltk
 nltk.download('popular')
 #END OF CODE
 Note:- The code has been attached in this repository. If you are using jupyter notebook you can use .ipynb extension file of code
-else you can use .py extension file.
+else you can use .py extension file. The file name of code is 'WINE-TYPE-PREDICTION'.
