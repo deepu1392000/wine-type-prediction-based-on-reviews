@@ -1,0 +1,13 @@
+The goal of this project is to find the type of grapes used to make the respective wine using machine learning model. This project used RandomForest Classifier machine learning model to predict the variety. The basic input for prediction is the reviews of customer about the respective wine[review_description column of data] from an online wine selling platform. The description was filtered firstly by removing stop words from it and then converted it into a multi-dimensional vector using Term Frequency-Inverse Density Frequency(TF-IDF) vectorization method. The varieties(The type of grapes used to make wine) were also processed using Label Encoding. Then, we have split the data into train and test set(90% train set,10% test set), the train set is used to train the classification model and the test set is used to validate the trained model. Then, Random Forest Classifier model is firstly trained and validated and later used to predict the varieties of some other unkonwn wines. The data has been attached in this repository and you can download and use them. The 'winetrain.csv' is the data set used to train and test performance of the created model and 'winetest.csv' is the data for which we have to find the variety of grapes used to make wine and the result of this data set is kept in 'resultdoc.csv'. The created model has outperformed with an accuracy of 95% .
+There are some neccessary libraries which are to be pre-installed before executing this code. For the installation follow the following steps:-
+Copy the below written codes to IDLE or jupyter notebook or spyder or pycharm or any other python development environment.
+#BEGIN OF CODE
+pip install numpy
+pip install pandas
+pip istall matplotlib
+pip install seaborn
+pip install sklearn
+pip install nltk
+import nltk
+nltk.download('popular')
+#END OF CODE
